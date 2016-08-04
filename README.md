@@ -11,5 +11,10 @@ Just a default project I can use as a ruby template for stuff. Trying to include
 #### TODO's
 * Good example of module documentation comment.  
 * Good example of class documentation comment.
+* Gemspec for building and publishing gems.  
+* Vendoring Gems.  
+* other directorys for stuff .. like in http://learnrubythehardway.org/book/ex46.html  
+* more detail around Rake and how to write Rake tasks  
+* More thorough testing examples. Mocks?  
 
 ![krusty](https://frinkiac.com/meme/S04E22/1273638.jpg?b64lines=SEVSRSdTIFRIQVQgUlVCWS1TVFVEREVECiBDTE9XTiBOT1NFIFlPVSBPUkRFUkVELAogS1JVU1RZLg==)
