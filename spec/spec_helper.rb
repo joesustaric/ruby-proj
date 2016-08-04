@@ -1,6 +1,8 @@
 require 'pry'
 require 'rspec'
 
+# Rspec Configuration
+# http://www.rubydoc.info/github/rspec/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   # Use color in STDOUT
   config.color = true
