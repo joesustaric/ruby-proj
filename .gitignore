@@ -1,0 +1,3 @@
+# Ignore the installed gems and bundler config
+vendor/ruby
+.bundle 
