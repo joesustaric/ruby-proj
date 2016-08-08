@@ -1,8 +1,8 @@
 
-module RubyProject
+module MyProject
   # Class Documentation Comment
   # Need to include a good example of a class documentation.
-  class HelloClass
+  class MyClass
     def say_hello
       'Hello World'
     end

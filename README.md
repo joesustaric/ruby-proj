@@ -33,9 +33,9 @@ The `vendor/ruby` should be git ignored too.
 #### TODO's
 * Good example of module documentation comment.  
 * Good example of class documentation comment.
+* Good example of Rdoc (or similar)
 * Gemspec for building and publishing gems.  
-* Vendoring Gems.  
-* other directorys for stuff .. like in http://learnrubythehardway.org/book/ex46.html  
+* other dirs for stuff .. like in http://learnrubythehardway.org/book/ex46.html  
 * more detail around Rake and how to write Rake tasks  
 * More thorough testing examples. Mocks?  
 
