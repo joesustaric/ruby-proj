@@ -77,11 +77,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  guard-rspec
-  pry
-  rake
-  rspec
-  rubocop
+  guard-rspec (~> 4.7.3)
+  my-project!
+  pry (~> 0.10.4)
+  rake (~> 10.5.0)
+  rspec (~> 3.5.0)
+  rubocop (~> 0.42.0)
 
 BUNDLED WITH
    1.12.5
