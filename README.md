@@ -38,5 +38,6 @@ The `vendor/ruby` should be git ignored too.
 * other dirs for stuff .. like in http://learnrubythehardway.org/book/ex46.html  
 * more detail around Rake and how to write Rake tasks  
 * More thorough testing examples. Mocks?  
+* (More difficult) Create a gem to scaffold this out.
 
 ![krusty](https://frinkiac.com/meme/S04E22/1273638.jpg?b64lines=SEVSRSdTIFRIQVQgUlVCWS1TVFVEREVECiBDTE9XTiBOT1NFIFlPVSBPUkRFUkVELAogS1JVU1RZLg==)
