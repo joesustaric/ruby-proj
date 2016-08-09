@@ -6,3 +6,7 @@
 #require 'my_project/cli'
 
 #MyProject::CLI.start(ARGV)
+
+
+# To create CLI apps try Thor => http://whatisthor.com/
+# or Clamp => https://github.com/mdub/clamp
