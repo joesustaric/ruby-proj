@@ -3,7 +3,7 @@
 Just a default project I can use as a ruby template for stuff. Trying to include all the good stuff off the bat.
 
 ### Quickstart  
-To use this as a tempate for a new ruby project do this..  
+To use this as a template for a new ruby project do this..  
 1. Clone this project.  
 2. Rename the directory to your new project
 3. `bundle install --path vendor`  
