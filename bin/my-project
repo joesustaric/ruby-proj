@@ -2,11 +2,8 @@
 
 # This is the file where you would initiate your cli application if that is what you were building
 # Something similar to the example below.
+# To execute this file whilst developing use bundle exec.
+# If its installed as a gem call it directly like an executable.
+require 'my_project/cli'
 
-#require 'my_project/cli'
-
-#MyProject::CLI.start(ARGV)
-
-
-# To create CLI apps try Thor => http://whatisthor.com/
-# or Clamp => https://github.com/mdub/clamp
+MyProject::CLI.run

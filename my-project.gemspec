@@ -19,11 +19,12 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  # Below Add any Development and runtime dependencies 
+  # Below Add any Development and runtime dependencies
    s.add_development_dependency 'rspec', '~> 3.5.0'
    s.add_development_dependency 'rubocop', '~> 0.42.0'
    s.add_development_dependency 'pry', '~> 0.10.4'
    s.add_development_dependency 'guard-rspec', '~> 4.7.3'
    s.add_development_dependency 'rake', '~> 10.5.0'
-   #s.add_runtime_dependency 'something', '~> 1.0.0' 
+   s.add_development_dependency 'clamp', '~> 1.0.0'
+   #s.add_runtime_dependency 'something', '~> 1.0.0'
 end
