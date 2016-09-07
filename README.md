@@ -10,10 +10,11 @@ To use this as a template for a new ruby project do this..
 4. Start Coding
 
 ### Included
-* Rspec -> Defacto standard testing library http://rspec.info/
+* Rspec -> Defacto standard testing library. http://rspec.info/
 * Rubocop -> A Ruby static code analyzer, based on the community Ruby style guide. http://rubocop.readthedocs.io  
 * Guard Rspec -> Guard is a command line tool to easily handle events on file system modifications. https://github.com/guard/guard-rspec
-* pry -> An IRB alternative and runtime developer console http://pryrepl.org/  
+* pry -> An IRB alternative and runtime developer console. http://pryrepl.org/  
+* simplecov -> Test code coverage metrics. https://github.com/colszowka/simplecov
 
 ### Anatomy of this Project  
 TODO Describe how this is set up and why maybe.
