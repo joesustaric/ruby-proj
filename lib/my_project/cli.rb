@@ -1,21 +1,23 @@
 require 'clamp'
+require 'my_project/my_class'
 
 module MyProject
+  # Doco
   class CLI < Clamp::Command
-    option "--loud", :flag, "say it loud"
-    option ["-n", "--iterations"], "N", "say it N times", :default => 1 do |s|
+    option '--loud', :flag, 'say it loud'
+    option ['-n', '--iterations'], 'N', 'say it N times', default: 1 do |s|
       Integer(s)
     end
 
-    parameter "WORDS ...", "the thing to say", :attribute_name => :words
+    parameter 'NAME ...', 'who to say hello to', attribute_name: :words
 
     def execute
-      the_truth = words.join(" ")
-      the_truth.upcase! if loud?
+      sayer = MyClass.new
+      the_name = words.join(" ")
+      the_name.upcase! if loud?
       iterations.times do
-        puts the_truth
+        puts sayer.say_hello the_name
       end
     end
-
   end
 end
